@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<section class="page__main-screen main-screen">
+					<div class="main-screen__container">
+						<div class="main-screen__body">
+							<div class="main-screen__subtitle">онлайн курс по массажу лица</div>
+							<h1 class="main-screen__title title"><span>Touch Face</span> уникальная техника<br>от яны фирсов</h1>
+							<a href="#" class="main-screen__button button"><span class="_icon-arrow">להירשם לקורס</span></a>
+						</div>
+						<div class="main-screen__image">
+							<div class="main-screen__image-ibg">
+								<img src="@img/main-screen/jana.png" alt="Jana">
+							</div>
+						</div>
+						
+					</div>
+				</section>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>

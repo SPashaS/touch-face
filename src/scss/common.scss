@@ -1,0 +1,20 @@
+// Заголовки, общие БЄМ блоки и проче...
+.title {
+    text-transform: uppercase;
+    font-family: YanoneKaffeesatz;
+    font-weight: 300;
+    @include adaptiveValue("font-size",57,34);
+    color: #736C68;
+    span {
+        font-family: DrukCyr;
+        font-weight: 500;
+        @include adaptiveValue("font-size",190,90);
+        line-height: 1.02;
+        color: $accentColor;
+        display: block;
+    }
+}
+
+.button {
+    display: inline-block;
+}
